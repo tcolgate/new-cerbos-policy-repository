@@ -63,7 +63,7 @@ tests:
         actions:
           read: EFFECT_ALLOW
           update: EFFECT_ALLOW
-          delete: EFFECT_DENY
+          delete: EFFECT_ALLOW
       - principal: ian
         resource: resource2
         actions:
